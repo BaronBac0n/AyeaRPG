@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 461877d50bdabf6499a44b4a223621d2, type: 3}
+  m_Name: Spider Room
+  m_EditorClassIdentifier: 
+  description: Pushing through the webs, you find yourself in a small cave. In one
+    of the webs you can see a long dead body.
+  roomName: spider room
+  exits:
+  - keyString: south
+    exitDescription: The web covered hole in the wall leads south.
+    valueRoom: {fileID: 11400000, guid: b63f71ad998a84949ba9437cba78474d, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: dca886bd85ba9c9458d450b0e3c12ba2, type: 2}
+  enemies:
+  - {fileID: 11400000, guid: 5cad2d603fc27a940aa99ecba4223f01, type: 2}
